@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Sculpted Geometric "0" (Shunno) Portal Ring -->
+    <path
+        android:fillColor="#24FFFFFF"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="6.0"
+        android:pathData="M54,28 C64.5,28 72,38 72,54 C72,70 64.5,80 54,80 C43.5,80 36,70 36,54 C36,38 43.5,28 54,28 Z" />
+    <!-- Apple Mint Green Acceleration Downward Arrow -->
+    <path
+        android:strokeColor="#FF30D158"
+        android:strokeWidth="4.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M54,41 L54,66 M44,56 L54,66 L64,56" />
+</vector>

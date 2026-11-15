@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shunno Get — Multi-Threaded Download Manager for Android</title>
+  <style>
+    :root {
+      --bg: #F2F2F7;
+      --card-bg: rgba(255, 255, 255, 0.88);
+      --accent: #0A84FF;
+      --accent-hover: #0071E3;
+      --text: #1C1C1E;
+      --secondary: #8E8E93;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", sans-serif; }
+    body { background-color: var(--bg); color: var(--text); display: flex; flex-direction: column; align-items: center; padding: 40px 20px; min-height: 100vh; }
+    .container { max-width: 680px; width: 100%; text-align: center; }
+    .app-icon {
+      width: 124px; height: 124px; border-radius: 28px;
+      box-shadow: 0 18px 38px rgba(0, 64, 221, 0.32);
+      margin: 20px auto 28px auto;
+      background: linear-gradient(135deg, #0A84FF 0%, #0051D5 55%, #002B7F 100%);
+      display: flex; align-items: center; justify-content: center;
+      color: white; font-size: 44px; font-weight: bold;
+    }
+    h1 { font-size: 40px; font-weight: 700; margin-bottom: 8px; }
+    p.subtitle { font-size: 18px; color: var(--secondary); margin-bottom: 34px; line-height: 1.45; }
+    .download-card {
+      background: var(--card-bg); backdrop-filter: blur(20px); border-radius: 24px; padding: 32px 24px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06); border: 1px solid rgba(255,255,255,0.7); margin-bottom: 36px;
+    }
+    .btn-download {
+      display: inline-flex; align-items: center; justify-content: center;
+      background: var(--accent); color: #fff; font-size: 18px; font-weight: 600;
+      text-decoration: none; padding: 16px 36px; border-radius: 980px;
+      box-shadow: 0 6px 18px rgba(10, 132, 255, 0.35); transition: all 0.2s ease; margin-bottom: 14px; width: 100%; max-width: 380px;
+    }
+    .btn-download:hover { background: var(--accent-hover); transform: translateY(-1px); }
+    .file-meta { font-size: 13px; color: var(--secondary); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="app-icon">0↓</div>
+    <h1>Shunno Get</h1>
+    <p class="subtitle">Ad-free, multi-threaded download manager with HLS stream grabbing, lossless FLAC/ALAC support, and Cupertino UI.</p>
+    <div class="download-card">
+      <a href="https://github.com/asanaim/ShunnoGet/releases/latest/download/ShunnoGet.apk" class="btn-download">
+        Download Shunno Get APK
+      </a>
+      <div class="file-meta">Version 1.0 • Android 7.0+ (64-bit ARM) • 100% Free & Open-Source</div>
+    </div>
+  </div>
+</body>
+</html>
